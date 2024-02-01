@@ -234,6 +234,28 @@ section{
     .navlist.open{
         right: 0;
     }
+    section{
+        padding: 0 3%;
+        transition: 0.2s;
+    }
+    .hero-text{
+        padding-top: 115px;
+    }
+    .hero-img{
+        text-align: center;
+    }
+    .hero-img img{
+        width: 400px;
+        height: auto;
+    }
+    .hero{
+        height: 100vh;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .alt-hero li img{
+        max-width: 30px;
+    }
 }
 @media (max-width: 680px){
 
